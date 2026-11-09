@@ -1,0 +1,65 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.6,
+      "yOffset": 7.8,
+      "zOffset": -12.6,
+      "xOffset": 0.75,
+      "textureLocation": "muzzle_flash_1",
+      "alternateMuzzleFlash": true,
+      "alternatePosition": {
+        "x": -1.5,
+        "y": 0.0,
+        "z": -0.0
+      }
+    }
+  },
+  "general": {
+    "weaponType": "lmg",
+    "fireMode": "scguns:automatic",
+    "gripType": "scguns:mini_gun",
+    "baseGripType": "scguns:mini_gun",
+    "rate": 2,
+    "recoilAngle": 1.2,
+    "recoilKick": 0.45,
+    "spread": 3.5,
+    "meleeDamage": 5.0,
+    "meleeCooldownTicks": 20,
+    "meleeReach": 3.5,
+    "hotBarrelRate": 3,
+    "criticalChance": 0.05,
+    "isRevolver": true,
+    "speedModifier": 0.8
+  },
+  "modules": {
+    "attachments": {}
+  },
+  "projectile": {
+    "advantage": "scguns:none",
+    "damage": 16.0,
+    "armorPen": 3.0,
+    "gravity": false,
+    "item": "sujjstweaks:radioactive_round",
+    "ejectsCasing": false,
+    "life": 40,
+    "size": 0.1,
+    "speed": 6.0,
+    "trailColor": 3800852,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 200,
+    "reloadItem": "sujjstweaks:radioactive_round",
+    "reloadTimer": 70,
+    "reloadType": "scguns:mag_fed"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns:item.rusty_gnat.fire",
+    "fire": "scguns:item.rusty_gnat.fire",
+    "reload": "scguns:item.gauss.reload",
+    "silencedFire": "scguns:item.rusty_gnat.silenced_fire",
+    "flyby": "scguns:bullet.flyby1"
+  }
+}

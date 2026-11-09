@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "sujjstweaks:block/radioactive_grass_block_top",
+    "side": "sujjstweaks:block/radioactive_grass_block_side",
+    "bottom": "minecraft:block/dirt",
+    "particle": "minecraft:block/dirt"
+  }
+}

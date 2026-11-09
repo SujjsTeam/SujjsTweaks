@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sujjstweaks:nuclear_power_plant",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 16,
+    "salt": 782193401
+  }
+}

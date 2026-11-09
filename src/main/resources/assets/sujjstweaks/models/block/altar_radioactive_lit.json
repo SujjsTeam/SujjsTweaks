@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "sujjstweaks:block/altar_radioactive_top_lit",
+    "side": "sujjstweaks:block/altar_radioactive_side_lit",
+    "bottom": "sujjstweaks:block/altar_radioactive_bottom"
+  }
+}

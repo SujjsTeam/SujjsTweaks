@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "sujjstweaks:block/altar_radioactive"
+    },
+    "lit=true": {
+      "model": "sujjstweaks:block/altar_radioactive_lit"
+    }
+  }
+}

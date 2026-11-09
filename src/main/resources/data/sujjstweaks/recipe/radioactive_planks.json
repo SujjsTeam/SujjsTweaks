@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "sujjstweaks:radioactive_log"
+    }
+  ],
+  "result": {
+    "id": "sujjstweaks:radioactive_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "nucleon_ambient": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_ambient",
+    "sounds": [
+      "sujjstweaks:nucleon/ambient1",
+      "sujjstweaks:nucleon/ambient2"
+    ]
+  },
+  "nucleon_hurt": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_hurt",
+    "sounds": [
+      "sujjstweaks:nucleon/hurt1",
+      "sujjstweaks:nucleon/hurt2"
+    ]
+  },
+  "nucleon_death": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_death",
+    "sounds": [
+      "sujjstweaks:nucleon/death"
+    ]
+  },
+  "nucleon_roar": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_roar",
+    "sounds": [
+      "sujjstweaks:nucleon/roar"
+    ]
+  },
+  "nucleon_emerge": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_emerge",
+    "sounds": [
+      "sujjstweaks:nucleon/emerge"
+    ]
+  },
+  "nucleon_slam_swing": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_slam_swing",
+    "sounds": [
+      "sujjstweaks:nucleon/slam_swing"
+    ]
+  },
+  "nucleon_slam_impact": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_slam_impact",
+    "sounds": [
+      "sujjstweaks:nucleon/slam_impact"
+    ]
+  },
+  "nucleon_charge_windup": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_charge_windup",
+    "sounds": [
+      "sujjstweaks:nucleon/charge_windup"
+    ]
+  },
+  "nucleon_charge_dash": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_charge_dash",
+    "sounds": [
+      "sujjstweaks:nucleon/charge_dash"
+    ]
+  },
+  "nucleon_charge_crash": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_charge_crash",
+    "sounds": [
+      "sujjstweaks:nucleon/charge_crash"
+    ]
+  },
+  "nucleon_shockwave": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_shockwave",
+    "sounds": [
+      "sujjstweaks:nucleon/shockwave"
+    ]
+  },
+  "nucleon_cast": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_cast",
+    "sounds": [
+      "sujjstweaks:nucleon/cast"
+    ]
+  },
+  "nucleon_orb_shoot": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_orb_shoot",
+    "sounds": [
+      "sujjstweaks:nucleon/orb_shoot"
+    ]
+  },
+  "nucleon_orb_hit": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_orb_hit",
+    "sounds": [
+      "sujjstweaks:nucleon/orb_hit"
+    ]
+  },
+  "nucleon_shield_break": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_shield_break",
+    "sounds": [
+      "sujjstweaks:nucleon/shield_break"
+    ]
+  },
+  "nucleon_barrier_block": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_barrier_block",
+    "sounds": [
+      "sujjstweaks:nucleon/barrier_block"
+    ]
+  },
+  "nucleon_barrier_up": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_barrier_up",
+    "sounds": [
+      "sujjstweaks:nucleon/barrier_up"
+    ]
+  },
+  "nucleon_barrier_down": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_barrier_down",
+    "sounds": [
+      "sujjstweaks:nucleon/barrier_down"
+    ]
+  },
+  "nucleon_explode": {
+    "subtitle": "subtitles.sujjstweaks.nucleon_explode",
+    "sounds": [
+      "sujjstweaks:nucleon/explode"
+    ]
+  },
+  "soldier_ambient": {
+    "subtitle": "subtitles.sujjstweaks.soldier_ambient",
+    "sounds": [
+      "sujjstweaks:soldier/ambient1",
+      "sujjstweaks:soldier/ambient2"
+    ]
+  },
+  "soldier_hurt": {
+    "subtitle": "subtitles.sujjstweaks.soldier_hurt",
+    "sounds": [
+      "sujjstweaks:soldier/hurt"
+    ]
+  },
+  "soldier_death": {
+    "subtitle": "subtitles.sujjstweaks.soldier_death",
+    "sounds": [
+      "sujjstweaks:soldier/death"
+    ]
+  },
+  "ritual_start": {
+    "subtitle": "subtitles.sujjstweaks.ritual_start",
+    "sounds": [
+      "sujjstweaks:ritual/start"
+    ]
+  },
+  "ritual_pulse": {
+    "subtitle": "subtitles.sujjstweaks.ritual_pulse",
+    "sounds": [
+      "sujjstweaks:ritual/pulse"
+    ]
+  },
+  "ritual_climax": {
+    "subtitle": "subtitles.sujjstweaks.ritual_climax",
+    "sounds": [
+      "sujjstweaks:ritual/climax"
+    ]
+  },
+  "ritual_release": {
+    "subtitle": "subtitles.sujjstweaks.ritual_release",
+    "sounds": [
+      "sujjstweaks:ritual/release"
+    ]
+  },
+  "nucleon_battle_music": {
+    "sounds": [
+      {
+        "name": "sujjstweaks:music/nucleon_battle",
+        "stream": true
+      }
+    ]
+  }
+}

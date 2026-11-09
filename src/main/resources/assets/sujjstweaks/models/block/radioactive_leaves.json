@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "sujjstweaks:block/radioactive_leaves"
+  },
+  "render_type": "minecraft:cutout_mipped"
+}
