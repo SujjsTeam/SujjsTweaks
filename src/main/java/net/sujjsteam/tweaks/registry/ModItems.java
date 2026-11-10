@@ -11,6 +11,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.sujjsteam.tweaks.Tweaks;
 import net.sujjsteam.tweaks.item.AtomicBombItem;
 import net.sujjsteam.tweaks.item.DimensionalControllerItem;
+import net.sujjsteam.tweaks.item.InfiniteAmmoItem;
+import net.sujjsteam.tweaks.item.TheAbsoluteItem;
 
 public class ModItems {
 
@@ -81,14 +83,9 @@ public class ModItems {
             new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON)
     );
 
-    public static final DeferredItem<Item> INFINITE_AMMO = ITEMS.registerItem(
+    public static final DeferredItem<InfiniteAmmoItem> INFINITE_AMMO = ITEMS.registerItem(
             "infinite_ammo",
-            properties -> new Item(properties) {
-                @Override
-                public boolean isFoil(ItemStack stack) {
-                    return true;
-                }
-            },
+            InfiniteAmmoItem::new,
             new Item.Properties().stacksTo(1).rarity(Rarity.RARE).fireResistant()
     );
 
@@ -98,9 +95,9 @@ public class ModItems {
             new Item.Properties().stacksTo(64).rarity(Rarity.RARE).fireResistant()
     );
 
-    public static final DeferredItem<Item> THE_ABSOLUTE = ITEMS.registerItem(
+    public static final DeferredItem<TheAbsoluteItem> THE_ABSOLUTE = ITEMS.registerItem(
             "the_absolute",
-            Item::new,
+            TheAbsoluteItem::new,
             new Item.Properties()
                     .stacksTo(1)
                     .rarity(Rarity.EPIC)

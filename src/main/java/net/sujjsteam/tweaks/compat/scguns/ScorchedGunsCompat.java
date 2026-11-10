@@ -8,7 +8,6 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.sujjsteam.tweaks.Tweaks;
 import net.sujjsteam.tweaks.registry.ModSounds;
-import top.ribs.scguns.item.animated.AnimatedGunItem;
 
 public final class ScorchedGunsCompat {
 
@@ -17,8 +16,8 @@ public final class ScorchedGunsCompat {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Tweaks.MOD_ID);
 
-    public static final DeferredItem<AnimatedGunItem> RADIOACTIVE_MINIGUN = ITEMS.register("radioactive_minigun",
-            () -> new AnimatedGunItem(
+    public static final DeferredItem<RadioactiveMinigunItem> RADIOACTIVE_MINIGUN = ITEMS.register("radioactive_minigun",
+            () -> new RadioactiveMinigunItem(
                     new Item.Properties().stacksTo(1).durability(MINIGUN_DURABILITY).rarity(Rarity.EPIC).fireResistant(),
                     MODEL_NAME,
                     top.ribs.scguns.init.ModSounds.MAG_OUT.get(),
